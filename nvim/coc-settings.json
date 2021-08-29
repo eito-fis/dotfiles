@@ -1,0 +1,39 @@
+{
+	"diagnostic.errorSign": "",
+	"diagnostic.warningSign": "",
+	"diagnostic.infoSign": "",
+	"diagnostic.hintSign": "",
+	"suggest.enablePreselect": true,
+	"suggest.completionItemKindLabels": {
+		"keyword":  "\uf1de", //  sliders
+		"variable": "\ue79b", //  isometric box
+		"value": "\f89f", //  digits 123
+		"operator": "\u03a8", // Ψ greek letter psi
+		"constructor": "\uf0ad", //  wrench
+		"function": "\u0192", // ƒ latin small letter F
+		"reference": "\ufa46", // 渚 retweet symbol
+		"constant": "\uf8fe", //  greek letter pi
+		"method": "\uf09a", //  facebook "f"
+		"struct": "\ufb44", // פּ file tree
+		"class": "\uf0e8", //  hierarchy / site map
+		"interface": "\uf417", //  git commit / line interrupted by circle
+		"text": "\ue612", //  left-justified lines
+		"enum": "\uf02c", //  pair of tags
+		"enumMember": "\uf02b", //  tag
+		"module": "\uf40d", //  code file / page showing angle brackets
+		"color": "\ue22b", //  palette
+		"property": "\ue624", //  predator dots
+		"field": "\uf9be", // 料left-justified sorted lines
+		"unit": "\uf475", //  negative-space ellipsis
+		"event": "\ufacd", // 鬒clock alert / clock with exclamation mark
+		"file": "\uf15b", //  file / blank page
+		"folder": "\uf07b", //  folder
+		"snippet": "\ue60b", //  pair of curly braces
+		"typeParameter": "\uf728", "default": "\uf728" 
+	},
+	"python.linting.enabled": true,
+	"python.linting.flake8Enabled": true,
+	"python.analysis.typeCheckingMode": "off",
+	"pyright.disableDiagnostics": false,
+	"python.linting.flake8Args": ["--ignore=E402,E741,E203,E266,E501,W503", "--max-line-length=88", "--max-complexity=18", "--select=B,C,E,F,W,T4"]
+}
